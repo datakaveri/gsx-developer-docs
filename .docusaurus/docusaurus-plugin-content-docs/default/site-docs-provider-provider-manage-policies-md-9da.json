@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Provider/provider_manage_policies",
+  "id": "Provider/provider_manage_policies",
+  "isDocsHomePage": false,
+  "title": "Manage Policies",
+  "description": "A provider can create, view and delete access policies set for consumers and delegates in the Consumers tab.",
+  "source": "@site/docs/Provider/provider_manage_policies.md",
+  "sourceDirName": "Provider",
+  "slug": "/Provider/provider_manage_policies",
+  "permalink": "/docs/Provider/provider_manage_policies",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Provider/provider_manage_policies.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/Provider/provider"
+  },
+  "next": {
+    "title": "Manage Catalogue Items",
+    "permalink": "/docs/Provider/provider_register_catalogue_item"
+  }
+}

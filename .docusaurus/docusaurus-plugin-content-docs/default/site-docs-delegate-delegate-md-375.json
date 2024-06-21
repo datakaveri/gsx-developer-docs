@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Delegate/delegate",
+  "id": "Delegate/delegate",
+  "isDocsHomePage": false,
+  "title": "Introduction",
+  "description": "The IUDX Auth Auth-Delegate APIs allow assigned delegates to manage policies and delegations on behalf of the providers who have assigned them. Auth-Delegates may perform these operations using the Publisher Panel.",
+  "source": "@site/docs/Delegate/delegate.md",
+  "sourceDirName": "Delegate",
+  "slug": "/Delegate/delegate",
+  "permalink": "/docs/Delegate/delegate",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Delegate/delegate.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manage Data Ingestion",
+    "permalink": "/docs/Provider/provider_register_resource_server"
+  },
+  "next": {
+    "title": "Managing Policies and Delegations for different Providers",
+    "permalink": "/docs/Delegate/delegate_manage_policy"
+  }
+}

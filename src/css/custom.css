@@ -1,0 +1,160 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+/* :root {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-code-font-size: 95%;
+} */
+
+
+  a:hover{
+    text-decoration: none !important;
+  }
+
+:root{
+  --ifm-color-primary: #0b457f;
+  --ifm-color-primary-dark: #0a3e72;
+  --ifm-color-primary-darker: #093b6c;
+  --ifm-color-primary-darkest: #083059;
+  --ifm-color-primary-light: #0c4c8c;
+  --ifm-color-primary-lighter: #0d4f92;
+  --ifm-color-primary-lightest: #0e5aa5;
+  --ifm-code-font-size: 95%;
+  }
+  html[data-theme = 'dark']{
+    --ifm-color-primary-dark: #0a3e72;
+    --ifm-color-primary-darker: #093b6c;
+  }
+  
+  .docusaurus-highlight-code-line {
+    background-color: rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 calc(-1 * var(--ifm-pre-padding));
+    padding: 0 var(--ifm-pre-padding);
+  }
+  
+  html[data-theme='dark'] .docusaurus-highlight-code-line {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  /* Footer Styling */
+
+  /* col-1 of footer */
+
+  .footer{
+    background-color: #e9ecef;
+    font-size: 0.88rem;
+  }
+
+  .logo-address-col img{
+    width: 6rem;
+  }
+
+  .place img{
+    width: 0.8rem;
+  }
+
+  .place span{
+    color: #606770;
+  }
+
+  .logo{
+    margin-bottom: 2rem;
+  }
+
+  /* col-4 of footer */
+
+  .icon{
+    font-size: 12px;
+    border-radius: 25%;
+    fill: white;
+    background-color: #15294b;
+    padding: 8px;
+    width: 28px;
+    height: 28px;
+    transition: all 0.2s ease-out;
+  }
+
+  .icon:hover {
+    opacity: 80%;
+  }
+
+  .a-icon:hover{
+    text-decoration: none;
+  }
+
+  .flex-parent{
+    display: flex;
+  }
+
+  .ugix-logo{
+    width: 5rem;
+  }
+
+  .ministry-logo{
+    width: 18rem;
+  }
+
+  .iisc-logo{
+    width: 5rem;
+  }
+
+  .connect-with-us{
+    text-align: center;
+    margin-top: 1.3rem;
+    color: #15294b; 
+  }
+
+  .mailto{
+    font-weight: 500;
+  }
+
+  .mailto a{
+    color: #15294b;
+  }
+
+  .hr-w-75 {
+    width: 100%;
+    border-top: 1px solid rgb(0 0 0 / 10%);
+  }
+
+  .footer__copyright{
+    color: #606770;
+  }
+
+  .footer__title{
+    color: #15294b;
+  }
+
+
+  @media(max-width:1080px){
+
+    footer{
+      text-align: center;
+    }
+
+    .flex-parent{
+      justify-content: center;
+    }
+  }
+
+  @media(max-width:768px){
+    footer{
+      text-align: center;
+    }
+
+    .flex-parent{
+      flex-direction: column;
+    }
+  }
+  

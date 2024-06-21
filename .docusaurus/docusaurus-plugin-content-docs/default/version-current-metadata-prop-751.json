@@ -1,0 +1,107 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Fetching and Resetting Client Credentials",
+        "href": "/docs/client-credentials"
+      },
+      {
+        "type": "link",
+        "label": "Registration",
+        "href": "/docs/registration"
+      },
+      {
+        "type": "category",
+        "label": "Getting Started: Consumer",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction",
+            "href": "/docs/Consumer/consumer"
+          },
+          {
+            "type": "link",
+            "label": "Discover Resources",
+            "href": "/docs/Consumer/consumer_data_discovery"
+          },
+          {
+            "type": "link",
+            "label": "Obtaining Access Token",
+            "href": "/docs/Consumer/consumer_obtaining_access_token"
+          },
+          {
+            "type": "link",
+            "label": "Data Access through APIs",
+            "href": "/docs/Consumer/consumer_data_access_APIs"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Getting Started: Provider",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction",
+            "href": "/docs/Provider/provider"
+          },
+          {
+            "type": "link",
+            "label": "Manage Policies",
+            "href": "/docs/Provider/provider_manage_policies"
+          },
+          {
+            "type": "link",
+            "label": "Manage Catalogue Items",
+            "href": "/docs/Provider/provider_register_catalogue_item"
+          },
+          {
+            "type": "link",
+            "label": "Manage Data Ingestion",
+            "href": "/docs/Provider/provider_register_resource_server"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Getting Started: Delegate",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction",
+            "href": "/docs/Delegate/delegate"
+          },
+          {
+            "type": "link",
+            "label": "Managing Policies and Delegations for different Providers",
+            "href": "/docs/Delegate/delegate_manage_policy"
+          },
+          {
+            "type": "link",
+            "label": "Manage Catalogue Items",
+            "href": "/docs/Delegate/delegate_register_catalogue_item"
+          },
+          {
+            "type": "link",
+            "label": "Manage Data Ingestion",
+            "href": "/docs/Delegate/delegate_register_resource_server"
+          }
+        ]
+      }
+    ]
+  }
+}
