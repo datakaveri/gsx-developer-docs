@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Provider/provider",
+  "id": "Provider/provider",
+  "isDocsHomePage": false,
+  "title": "Introduction",
+  "description": "The UGIX Auth Provider APIs allow a provider to manage access to the secure resources they own via the Publisher Panel",
+  "source": "@site/docs/Provider/provider.md",
+  "sourceDirName": "Provider",
+  "slug": "/Provider/provider",
+  "permalink": "/docs/Provider/provider",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Provider/provider.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Access through APIs",
+    "permalink": "/docs/Consumer/consumer_data_access_APIs"
+  },
+  "next": {
+    "title": "Manage Policies",
+    "permalink": "/docs/Provider/provider_manage_policies"
+  }
+}

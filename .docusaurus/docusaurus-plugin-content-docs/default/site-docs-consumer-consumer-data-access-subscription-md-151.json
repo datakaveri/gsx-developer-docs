@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Consumer/consumer_data_access_subscription",
+  "id": "Consumer/consumer_data_access_subscription",
+  "isDocsHomePage": false,
+  "title": "Data Access through Subscription",
+  "description": "To register subscription, a user must request for consent from the provider, obtain a token from IUDX Auth server and then access the Subscription API.",
+  "source": "@site/docs/Consumer/consumer_data_access_subscription.md",
+  "sourceDirName": "Consumer",
+  "slug": "/Consumer/consumer_data_access_subscription",
+  "permalink": "/docs/Consumer/consumer_data_access_subscription",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Consumer/consumer_data_access_subscription.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Access through APIs",
+    "permalink": "/docs/Consumer/consumer_data_access_APIs"
+  },
+  "next": {
+    "title": "Data Access through Async APIs",
+    "permalink": "/docs/Consumer/consumer_data_access_async"
+  }
+}

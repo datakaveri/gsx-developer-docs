@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Consumer/consumer_data_access_APIs",
+  "id": "Consumer/consumer_data_access_APIs",
+  "isDocsHomePage": false,
+  "title": "Data Access through APIs",
+  "description": "After discovering resources and obtaining appropriate access tokens, a consumer can use the OGC APIs and STAC APIs",
+  "source": "@site/docs/Consumer/consumer_data_access_APIs.md",
+  "sourceDirName": "Consumer",
+  "slug": "/Consumer/consumer_data_access_APIs",
+  "permalink": "/docs/Consumer/consumer_data_access_APIs",
+  "editUrl": "https://github.com/datakaveri/iudx-developer-docs/blob/main/docs/Consumer/consumer_data_access_APIs.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Obtaining Access Token",
+    "permalink": "/docs/Consumer/consumer_obtaining_access_token"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/Provider/provider"
+  }
+}
