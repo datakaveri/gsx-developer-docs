@@ -7,15 +7,15 @@ const foot = require('./static/footer_col_3');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: 'IUDX Documentation',
+	title: 'UGIX Documentation',
 	tagline: 'Learn about exploring, building , deploying your apps with IUDX',
-	url: 'https://docs.iudx.org.in/',
+	url: 'https://docs.ugix.org.in/',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
 	favicon: 'img/icon.ico',
-	organizationName: 'IUDX', // Usually your GitHub org/user name.
-	projectName: 'IUDX', // Usually your repo name.
+	organizationName: 'UGIX', // Usually your GitHub org/user name.
+	projectName: 'UGIX', // Usually your repo name.
 
 	presets: [
 		[
@@ -25,13 +25,13 @@ const config = {
 					sidebarPath: require.resolve('./sidebars.js'),
 					// Please change this to your repo docs
 					editUrl:
-						'https://github.com/datakaveri/iudx-developer-docs/blob/main/'
+						'https://github.com/datakaveri/ugix-developer-docs/blob/main/'
 				},
 				blog: {
 					showReadingTime: true,
 					// Please change this to your repo blog
 					editUrl:
-						'https://github.com/datakaveri/iudx-developer-docs/blog/'
+						'https://github.com/datakaveri/ugix-developer-docs/blog/'
 				},
 				theme: {
 					customCss: require.resolve('./src/css/custom.css')
@@ -151,24 +151,24 @@ const config = {
 						title: 'Important Links',
 						items: [
 							{
-								label: 'IUDX Home',
-								to: 'https://iudx.org.in/'
+								label: 'UGIX Home',
+								to: 'https://ugix.org.in/'
 							},
 							{
 								label: 'Datasets Catalogue',
-								to: 'https://catalogue.iudx.org.in/'
+								to: 'https://catalogue.ugix.org.in/'
 							},
 							{
 								label: 'Provider Dashboard',
-								to: 'https://publisher.iudx.org.in/'
+								to: 'https://catalogue.ugix.org.in/provider'
 							},
 							{
 								label: 'Consumer Dashboard',
-								to: 'https://consumer.iudx.org.in/'
+								to: 'https://catalogue.ugix.org.in/consumer'
 							},
 							{
 								label: 'Community Forum',
-								to: 'https://forum.iudx.org.in/'
+								to: 'https://forum.ugix.org.in/'
 							}
 						]
 					},
@@ -177,23 +177,23 @@ const config = {
 						items: [
 							{
 								label: 'Sandbox',
-								to: 'https://sandbox.iudx.org.in/'
+								to: 'https://sandbox.ugix.org.in/'
 							},
 							{
 								label: 'Documentation',
-								to: 'https://docs.iudx.org.in/'
+								to: 'https://docs.ugix.org.in/'
 							},
 							{
 								label: 'Catalogue Server API Docs',
-								to: 'https://api.catalogue.iudx.org.in/apis'
+								to: 'https://dx.ugix.org.in/cat/apis'
 							},
 							{
 								label: 'Resource Server API Docs',
-								to: 'https://rs.iudx.org.in/apis'
+								to: 'https://geoserver.dx.ugix.org.in/api'
 							},
 							{
 								label: 'Authorization Server API Docs',
-								to: 'https://authorization.iudx.org.in/apis'
+								to: 'https://dx.ugix.org.in/auth/apis'
 							}
 						]
 					},
