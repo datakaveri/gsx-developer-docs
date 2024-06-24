@@ -82,7 +82,7 @@ const config = {
 					//   label: 'Getting Started',
 					// },
 					{
-						href: 'https://github.com/datakaveri/iudx-developer-docs',
+						href: 'https://github.com/datakaveri/ugix-developer-docs',
 						label: 'GitHub',
 						position: 'right'
 					}
