@@ -29,9 +29,11 @@ The user will receive an email with a verification link at their registered emai
 ![Sample email dialog](../resources/auth/sample-email.png)<br/>
 *Sample email dialog*
 
+Once your email address has been verified, you will be directed to an interface that looks like this:
 
 ![Account created, last step of registration pending](../resources/auth/last-step.png)<br/>
 *Account created! The final registration step of selecting a role is pending.*
+
 ## 3. Requesting User Roles
 
 Once email verification is complete, the user can select their desired roles by clicking on the "Complete Profile" button on the subsequent interface. All roles are associated with a resource server to which the role applies. For example:

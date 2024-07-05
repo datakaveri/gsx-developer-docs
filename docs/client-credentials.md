@@ -25,7 +25,7 @@ Once a user has registered as a consumer or has been approved as a provider, the
 **NOTE : Resetting client credentials will result in revocation of all existing tokens. Additionally, the old client secret will not be accepted in token requests.**
 
  ![Warning](../resources/auth/new-client-warning.png)<br/>
-*Confirm if you agree*
+*Click Confirm if you wish to create new client credentials or if you have forgotten your existing client credentials.*
 
 4. Click on "Download Client Details" to download a .csv file containing the credentials.
 
