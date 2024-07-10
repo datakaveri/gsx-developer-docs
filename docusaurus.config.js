@@ -8,12 +8,12 @@ const foot = require('./static/footer_col_3');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
 	title: 'UGIX Documentation',
-	tagline: 'Learn about exploring, building , deploying your apps with IUDX',
+	tagline: 'Learn about exploring, building , deploying your apps with UGIX',
 	url: 'https://docs.ugix.org.in/',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
-	favicon: 'img/icon.ico',
+	favicon: 'img/ugix-logo.png',
 	organizationName: 'UGIX', // Usually your GitHub org/user name.
 	projectName: 'UGIX', // Usually your repo name.
 
@@ -126,34 +126,46 @@ const config = {
 						items: [
 							{
 								html: `
-                      <div class="logo-address-col">
-                        <a routerLink="/">
-                          <img
-                            src="https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/iudx.png"
-                            class="logo"
-                          />
-                        </a>
-                        <div class="place">
-                          <a href="https://goo.gl/maps/sHqNUTRGFDmD2kbX8" target="_blank">
-                            <img src="img/location.png" />
-                            <span>
-                              Ground Floor, Indian Institute of Science,<br>
-			      Entrepreneurship Centre Road, Entrepreneurship Centre,<br>
-			      Bengaluru - 560012, Karnataka
-                            </span>
-                          </a>
-                        </div>
-                      </div>`
+                      <div class="col-12 col-lg-4 footer-col-1 mt-4">
+				<div class="places">
+					<h4>Unified Geospatial Interface Exchange</h4>
+
+					<div class="row mt-lg-4 foot-column-1">
+						<div class="col-2">
+							<img src="img/location.svg" alt="" class='foot-icon' />
+						</div>
+						<div class="col-10">
+							<span
+								>Ground Floor, Indian Institute of Science,
+								Entrepreneurship Centre Road Entrepreneurship
+								Centre, Bengaluru, Karnataka 560012</span
+							>
+						</div>
+					</div>
+					<div class="row mt-lg-4 foot-column-1">
+						<div class="col-2">
+							<img src="img/website.svg" alt="" class='foot-web-icon' />
+						</div>
+						<div class="col-10">
+							<span>www.ugix.org.in</span>
+						</div>
+					</div>
+					<div class="row mt-lg-4 foot-column-1">
+						<div class="col-2">
+							<img src="img/email.svg" alt="" class='foot-web-icon' />
+						</div>
+						<div class="col-10">
+							<span>info@iudx.org.in</span>
+						</div>
+					</div>
+				</div>
+			</div>`
 							}
 						]
 					},
 					{
 						title: 'Important Links',
 						items: [
-							{
-								label: 'UGIX Home',
-								to: 'https://ugix.org.in/'
-							},
 							{
 								label: 'Datasets Catalogue',
 								to: 'https://catalogue.ugix.org.in/'
@@ -167,6 +179,10 @@ const config = {
 								to: 'https://catalogue.ugix.org.in/consumer'
 							},
 							{
+								label: 'Canvas Playground',
+								to: 'https://canvas.ugix.org.in/'
+							},
+							{
 								label: 'Community Forum',
 								to: 'https://forum.ugix.org.in/'
 							}
@@ -175,10 +191,6 @@ const config = {
 					{
 						title: 'For Developers',
 						items: [
-							{
-								label: 'Sandbox',
-								to: 'https://sandbox.ugix.org.in/'
-							},
 							{
 								label: 'Documentation',
 								to: 'https://docs.ugix.org.in/'
@@ -207,7 +219,7 @@ const config = {
 						]
 					}
 				],
-				copyright: `© ${new Date().getFullYear()} IUDX.`
+				copyright: `© ${new Date().getFullYear()} UGIX.`
 			},
 			prism: {
 				theme: lightCodeTheme,
@@ -227,4 +239,3 @@ const config = {
 };
 
 module.exports = config;
-
