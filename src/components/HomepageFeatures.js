@@ -24,7 +24,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Add your data resources to IUDX',
+    title: 'Add your data resources to UGIX',
     link:"../../docs/Provider/provider_register_catalogue_item",
     Svg: require('../../static/img/datasets.svg').default,
     description: (
@@ -44,7 +44,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Contribute to IUDX',
+    title: 'Contribute to UGIX',
     link:"https://github.com/datakaveri",
     Svg: require('../../static/img/Api.svg').default,
     description: (
