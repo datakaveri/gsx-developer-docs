@@ -9,7 +9,7 @@ const FeatureList = [
     Svg: require('../../static/img/getting_started.svg').default,
     description: (
       <>
-        How to register with IUDX?        
+        How to register with UGIX?        
       </>
     ),
   },
@@ -19,7 +19,7 @@ const FeatureList = [
     Svg: require('../../static/img/consuming_data.svg').default,
     description: (
       <>
-        How to connect your applications with IUDX?
+        How to connect your applications with UGIX?
       </>
     ),
   },
@@ -29,7 +29,7 @@ const FeatureList = [
     Svg: require('../../static/img/datasets.svg').default,
     description: (
       <>
-		How to add data resources and manage them using IUDX? 
+		How to add data resources and manage them using UGIX? 
       </>
     ),
   },
@@ -49,13 +49,13 @@ const FeatureList = [
     Svg: require('../../static/img/Api.svg').default,
     description: (
       <>
-		Get into the world of IUDX and start your contribution to the world of OpenSource to improvise IUDX
+		Get into the world of UGIX and start your contribution to the world of OpenSource to improvise UGIX
       </>
     ),
   },
   {
     title: 'Connect with us',
-    link:"https://iudx.org.in/contact-us/",
+    link:"https://ugix.org.in/contact-us/",
     Svg: require('../../static/img/subscribe.svg').default,
     description: (
       <>
