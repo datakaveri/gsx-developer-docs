@@ -4,15 +4,8 @@ module.exports = `<div class="col-3">
         <a href="https://smartcities.gov.in/" target="_blank">
             <img
                 class="ugix-logo"
-                src="https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/smart-city.png"
+                src="img/logo-dst.png"
                 title="Smart Cities"
-            />
-        </a>
-        <a href="http://mohua.gov.in/" target="_blank">
-            <img
-                class="ministry-logo"
-                src="https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/mohua.png"
-                title="MoHUA"
             />
         </a>
         <a href="https://www.iisc.ac.in/" target="_blank">
