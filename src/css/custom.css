@@ -36,14 +36,11 @@ h4{
   margin-right: 10px;
 }
 
-.places{
   .foot-icon{
   width: 1.5rem !important;
 }
 .foot-web-icon{
   width: 1.5rem !important;
-}
-
 }
 :root{
   --ifm-color-primary: #042f2e;
