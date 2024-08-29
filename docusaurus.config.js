@@ -68,10 +68,6 @@ const config = {
 							{
 								label: 'Provider',
 								href: '/docs/Provider/provider'
-							},
-							{
-								label: 'Delegate',
-								href: '/docs/Delegate/delegate'
 							}
 						]
 					},
