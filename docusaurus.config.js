@@ -13,7 +13,7 @@ const config = {
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
-	favicon: 'img/gsx-logo.png',
+	favicon: 'img/ugix-logo.png',
 	organizationName: 'GSX', // Usually your GitHub org/user name.
 	projectName: 'GSX', // Usually your repo name.
 
