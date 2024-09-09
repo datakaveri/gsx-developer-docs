@@ -7,15 +7,15 @@ const foot = require('./static/footer_col_3');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: 'UGIX Documentation',
-	tagline: 'Learn about exploring, building , deploying your apps with UGIX',
-	url: 'https://docs.ugix.org.in/',
+	title: 'GSX Documentation',
+	tagline: 'Learn about exploring, building , deploying your apps with GSX',
+	url: 'https://docs.gsx.org.in/',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
-	favicon: 'img/ugix-logo.png',
-	organizationName: 'UGIX', // Usually your GitHub org/user name.
-	projectName: 'UGIX', // Usually your repo name.
+	favicon: 'img/gsx-logo.png',
+	organizationName: 'GSX', // Usually your GitHub org/user name.
+	projectName: 'GSX', // Usually your repo name.
 
 	presets: [
 		[
@@ -25,13 +25,13 @@ const config = {
 					sidebarPath: require.resolve('./sidebars.js'),
 					// Please change this to your repo docs
 					editUrl:
-						'https://github.com/datakaveri/ugix-developer-docs/blob/main/'
+						'https://github.com/datakaveri/gsx-developer-docs/blob/main/'
 				},
 				blog: {
 					showReadingTime: true,
 					// Please change this to your repo blog
 					editUrl:
-						'https://github.com/datakaveri/ugix-developer-docs/blog/'
+						'https://github.com/datakaveri/gsx-developer-docs/blog/'
 				},
 				theme: {
 					customCss: require.resolve('./src/css/custom.css')
@@ -78,7 +78,7 @@ const config = {
 					//   label: 'Getting Started',
 					// },
 					{
-						href: 'https://github.com/datakaveri/ugix-developer-docs',
+						href: 'https://github.com/datakaveri/gsx-developer-docs',
 						label: 'GitHub',
 						position: 'right'
 					}
@@ -143,7 +143,7 @@ const config = {
 							<img src="img/website.svg" alt="" class='foot-web-icon' />
 						</div>
 						<div class="col-10">
-							<span>www.ugix.org.in</span>
+							<span>www.gsx.org.in</span>
 						</div>
 					</div>
 					<div class="row mt-lg-4 foot-column-1">
@@ -164,19 +164,19 @@ const config = {
 						items: [
 							{
 								label: 'Datasets Catalogue',
-								to: 'https://catalogue.ugix.org.in/'
+								to: 'https://catalogue.gsx.org.in/'
 							},
 							{
 								label: 'Provider Dashboard',
-								to: 'https://catalogue.ugix.org.in/provider'
+								to: 'https://catalogue.gsx.org.in/provider'
 							},
 							{
 								label: 'Consumer Dashboard',
-								to: 'https://catalogue.ugix.org.in/consumer'
+								to: 'https://catalogue.gsx.org.in/consumer'
 							},
 							{
 								label: 'Canvas Playground',
-								to: 'https://canvas.ugix.org.in/'
+								to: 'https://canvas.gsx.org.in/'
 							},
 							{
 								label: 'Community Forum',
@@ -189,19 +189,19 @@ const config = {
 						items: [
 							{
 								label: 'Documentation',
-								to: 'https://docs.ugix.org.in/'
+								to: 'https://docs.gsx.org.in/'
 							},
 							{
 								label: 'Catalogue Server API Docs',
-								to: 'https://dx.ugix.org.in/cat/apis'
+								to: 'https://dx.gsx.org.in/cat/apis'
 							},
 							{
 								label: 'Resource Server API Docs',
-								to: 'https://geoserver.dx.ugix.org.in/api'
+								to: 'https://geoserver.dx.gsx.org.in/api'
 							},
 							{
 								label: 'Authorization Server API Docs',
-								to: 'https://dx.ugix.org.in/auth/apis'
+								to: 'https://dx.gsx.org.in/auth/apis'
 							}
 						]
 					},
@@ -215,7 +215,7 @@ const config = {
 						]
 					}
 				],
-				copyright: `© ${new Date().getFullYear()} UGIX.`
+				copyright: `© ${new Date().getFullYear()} GSX.`
 			},
 			prism: {
 				theme: lightCodeTheme,
