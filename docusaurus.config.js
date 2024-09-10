@@ -124,7 +124,7 @@ const config = {
 								html: `
                       <div class="col-12 col-lg-4 footer-col-1 mt-4">
 				<div class="places">
-					<h4>Unified Geospatial Interface Exchange</h4>
+					<h4>Geospatial Data Exchange</h4>
 
 					<div class="row mt-lg-4 foot-column-1">
 						<div class="col-2">
