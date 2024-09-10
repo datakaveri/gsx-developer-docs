@@ -9,9 +9,9 @@ Providers can create, view and delete consumer access policies in the Consumers 
 *View policies set for consumers*
 
 Policies can be established for consumers regarding specific resource datasets, including restrictions on access types.
-- **API Access** allows consumers to call the UGIX Resource Server APIs on the specified resource.
+- **API Access** allows consumers to call the GSX Resource Server APIs on the specified resource.
 
-**Note: A policy can only be created if the consumer and the resource/dataset exist in the UGIX Catalogue.** Provider can also set an expiry time for the policy. Once a policy expires, the consumer will no longer be able to request tokens for that particular resource.
+**Note: A policy can only be created if the consumer and the resource/dataset exist in the GSX Catalogue.** Provider can also set an expiry time for the policy. Once a policy expires, the consumer will no longer be able to request tokens for that particular resource.
 
 ![Create policy](../../resources/auth/create-policy.png)<br/>
 *Create policy*

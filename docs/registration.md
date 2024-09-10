@@ -6,14 +6,14 @@ sidebar_position: 0
 
 ## Introduction
 
-All users of the UGIX platform must be registered and authenticated to perform any secure operation offered by the platform, which is available at no cost. The details of these secure operations are defined and explained by all UGIX components in their respective [API documentation](https://dx.ugix.org.in/apis). The registration process of a user on the UGIX platform is a simple three-step process as outlined below:
+All users of the GSX platform must be registered and authenticated to perform any secure operation offered by the platform, which is available at no cost. The details of these secure operations are defined and explained by all GSX components in their respective [API documentation](https://dx.gsx.org.in/apis). The registration process of a user on the GSX platform is a simple three-step process as outlined below:
 1. [Creating the Account](#1-account-creation)
 2. [Verifying the Email Address](#2-email-verification)
 3. [Assigning / Requesting a User Role](#3-requesting-user-roles)
 
 ## 1. Account Creation
 
-As the first step when a user accesses the [panel](https://catalogue.ugix.org.in/auth), they need to register as a new user. Registering is highlighted in the picture.
+As the first step when a user accesses the [panel](https://catalogue.gsx.org.in/auth), they need to register as a new user. Registering is highlighted in the picture.
 ![Register](../resources/auth/reg.png)<br/>
 *Click on Register*
 
@@ -50,7 +50,7 @@ Once email verification is complete, the user can select their desired roles by 
 
 Users who need to take on the provider role must provide their organization's details.
 
-**Note: Provider registration is deemed complete only after the resource server admin approves it. Once approved, the provider will gain access to the provider panel. Providers awaiting approval can contact UGIX to expedite the approval process.**
+**Note: Provider registration is deemed complete only after the resource server admin approves it. Once approved, the provider will gain access to the provider panel. Providers awaiting approval can contact GSX to expedite the approval process.**
 
 ![Choosing provider role](../resources/auth/prov-role.png)<br/>
 *Choosing provider role*

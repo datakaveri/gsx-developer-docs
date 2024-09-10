@@ -4,12 +4,12 @@ sidebar_position: 2
 
 
 # Discover Resources
-With the help of [Catalogue APIs](https://dx.ugix.org.in/cat/apis), a consumer can access information related to availability of a resource using text and geo-based search.
+With the help of [Catalogue APIs](https://dx.gsx.org.in/cat/apis), a consumer can access information related to availability of a resource using text and geo-based search.
 
 
-## Using UGIX Catalogue UI
+## Using GSX Catalogue UI
 
-A consumer can use the [Catalogue UI](https://catalogue.ugix.org.in/) to discover resources. 
+A consumer can use the [Catalogue UI](https://catalogue.gsx.org.in/) to discover resources. 
 
 ![Catalogue UI](../../resources/cat/cat_home_page.png)<br/>
 *Catalogue UI*
