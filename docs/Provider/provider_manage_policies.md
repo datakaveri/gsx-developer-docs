@@ -1,9 +1,10 @@
 ---
 sidebar_position: 2
 ---
- 
+
 # Manage Policies
 Providers can create, view and delete consumer access policies in the Consumers tab.
+
 
 ![View policies set for consumers](../../resources/auth/view-pols.png)<br/>
 *View policies set for consumers*
