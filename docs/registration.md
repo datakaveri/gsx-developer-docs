@@ -13,11 +13,11 @@ All users of the GSX platform must be registered and authenticated to perform an
 
 ## 1. Account Creation
 
-As the first step when a user accesses the [panel](https://catalogue.gsx.org.in/auth), they need to register as a new user. Registering is highlighted in the picture.
-![Register](../resources/auth/reg.png)<br/>
+As the first step when a user accesses the [panel](https://catalogue.gsx.org.in/auth), they need to register as a new user. <br/>  Registering is highlighted in the picture.
+![Register](../resources/auth/register.png)<br/>
 *Click on Register*
 
-![Account details](../resources/auth/first-step-reg.png)<br/>
+![Account details](../resources/auth/step1.png)<br/>
 *Enter Account details*
 
 ## 2. Email Verification
@@ -26,7 +26,7 @@ The user will receive an email with a verification link at their registered emai
 
 ***Note: The verification link will expire in 5 minutes.***
 
-![Sample email dialog](../resources/auth/sample-email.png)<br/>
+![Sample email dialog](../resources/auth/email-template.png)<br/>
 *Sample email dialog*
 
 Once your email address has been verified, you will be directed to an interface that looks like this:

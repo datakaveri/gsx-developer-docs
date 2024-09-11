@@ -13,7 +13,7 @@ const config = {
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
-	favicon: 'img/ugix-logo.png',
+	favicon: 'https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/ugix/icon.ico',
 	organizationName: 'GSX', // Usually your GitHub org/user name.
 	projectName: 'GSX', // Usually your repo name.
 
@@ -49,7 +49,7 @@ const config = {
 				title: '',
 				logo: {
 					alt: 'My Site Logo',
-					src: 'img/ugix-logo.png'
+					src: 'https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/ugix/gsix-logo.png'
 				},
 				items: [
 					{
@@ -143,7 +143,7 @@ const config = {
 							<img src="img/website.svg" alt="" class='foot-web-icon' />
 						</div>
 						<div class="col-10">
-							<span>www.gsx.org.in</span>
+							<a href=''>www.gsx.org.in</a>
 						</div>
 					</div>
 					<div class="row mt-lg-4 foot-column-1">

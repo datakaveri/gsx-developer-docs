@@ -18,7 +18,7 @@ Once a user has registered as a consumer or has been approved as a provider, the
 ![Entering into the My Profile panel](../resources/auth/go-to-my-profile.png)<br/>
 *Entering into the My Profile panel*
 
-3. In the "My Profile" panel, the user can either download their default client credentials or reset them if they have been lost or compromised.
+3. In the "My Profile" panel, the user can either download their default client credentials or reset them <br/>  if they have been lost or compromised.
 ![Getting new client credentials](../resources/auth/client-creds.png)<br/>
 *Getting new client credentials*
 

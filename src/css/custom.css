@@ -28,6 +28,10 @@
   flex-wrap: nowrap;
 }
 
+img{
+  max-width: 75%;
+}
+
 h4{
   font-size: 15px;
 }
