@@ -4,8 +4,8 @@ module.exports = `<div class="col-3">
         <a href="https://dst.gov.in/" target="_blank">
             <img
                 class="ugix-logo"
-                src="img/logo-dst.png"
-                title="Smart Cities"
+                src="https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/ugix/dst.png"
+                title="Department of science and technology"
             />
         </a>
         <a href="https://www.iisc.ac.in/" target="_blank">

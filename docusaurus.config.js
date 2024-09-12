@@ -122,15 +122,15 @@ const config = {
 						items: [
 							{
 								html: `
-                      <div class="col-12 col-lg-4 footer-col-1 mt-4">
+                      <div class="col-12 col-lg-3 footer-col-1 mt-4">
 				<div class="places">
 					<h4>Geospatial Data Exchange</h4>
 
 					<div class="row mt-lg-4 foot-column-1">
 						<div class="col-2">
-							<img src="img/location.svg" alt="" class='foot-icon' />
+							<img src="https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/ugix/icons/location.svg" alt="" class='foot-icon' />
 						</div>
-						<div class="col-10">
+						<div class="col-8" style="margin-left: 5px">
 							<span
 								>Ground Floor, Indian Institute of Science,
 								Entrepreneurship Centre Road Entrepreneurship
@@ -138,9 +138,10 @@ const config = {
 							>
 						</div>
 					</div>
+					<br />
 					<div class="row mt-lg-4 foot-column-1">
 						<div class="col-2">
-							<img src="img/website.svg" alt="" class='foot-web-icon' />
+							<img src="https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/ugix/icons/website.svg" alt="" class='foot-web-icon' />
 						</div>
 						<div class="col-10">
 							<a href=''>www.gsx.org.in</a>
@@ -148,7 +149,7 @@ const config = {
 					</div>
 					<div class="row mt-lg-4 foot-column-1">
 						<div class="col-2">
-							<img src="img/email.svg" alt="" class='foot-web-icon' />
+							<img src="https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/ugix/icons/email.svg" alt="" class='foot-web-icon' />
 						</div>
 						<div class="col-10">
 							<span>info@iudx.org.in</span>
