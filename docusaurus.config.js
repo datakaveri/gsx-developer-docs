@@ -7,15 +7,15 @@ const foot = require('./static/footer_col_3');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: 'GSX Documentation',
-	tagline: 'Learn about exploring, building , deploying your apps with GSX',
-	url: 'https://docs.gsx.org.in/',
+	title: 'GDI Documentation',
+	tagline: 'Learn about exploring, building , deploying your apps with GDI',
+	url: 'https://docs.gdi.org.in/',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
 	favicon: 'https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/ugix/icon.ico',
-	organizationName: 'GSX', // Usually your GitHub org/user name.
-	projectName: 'GSX', // Usually your repo name.
+	organizationName: 'GDI', // Usually your GitHub org/user name.
+	projectName: 'GDI', // Usually your repo name.
 
 	presets: [
 		[
@@ -124,7 +124,7 @@ const config = {
 								html: `
                       <div class="col-12 col-lg-3 footer-col-1 mt-4">
 				<div class="places">
-					<h4>Geospatial Data Exchange</h4>
+					<h4>Integrated Geospatial Data-Sharing Interface</h4>
 
 					<div class="row mt-lg-4 foot-column-1">
 						<div class="col-2">
@@ -144,7 +144,7 @@ const config = {
 							<img src="https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/ugix/icons/website.svg" alt="" class='foot-web-icon' />
 						</div>
 						<div class="col-10">
-							<a href=''>www.gsx.org.in</a>
+							<a href=''>www.gdi.org.in</a>
 						</div>
 					</div>
 					<div class="row mt-lg-4 foot-column-1">
@@ -165,19 +165,19 @@ const config = {
 						items: [
 							{
 								label: 'Datasets Catalogue',
-								to: 'https://catalogue.gsx.org.in/'
+								to: 'https://catalogue.gdi.org.in/'
 							},
 							{
 								label: 'Provider Dashboard',
-								to: 'https://catalogue.gsx.org.in/provider'
+								to: 'https://catalogue.gdi.org.in/provider'
 							},
 							{
 								label: 'Consumer Dashboard',
-								to: 'https://catalogue.gsx.org.in/consumer'
+								to: 'https://catalogue.gdi.org.in/consumer'
 							},
 							{
 								label: 'Canvas Playground',
-								to: 'https://canvas.gsx.org.in/'
+								to: 'https://canvas.gdi.org.in/'
 							},
 							{
 								label: 'Community Forum',
@@ -190,19 +190,19 @@ const config = {
 						items: [
 							{
 								label: 'Documentation',
-								to: 'https://docs.gsx.org.in/'
+								to: 'https://docs.gdi.org.in/'
 							},
 							{
 								label: 'Catalogue Server API Docs',
-								to: 'https://dx.gsx.org.in/cat/apis'
+								to: 'https://dx.gdi.org.in/cat/apis'
 							},
 							{
 								label: 'Resource Server API Docs',
-								to: 'https://geoserver.dx.gsx.org.in/api'
+								to: 'https://geoserver.dx.gdi.org.in/api'
 							},
 							{
 								label: 'Authorization Server API Docs',
-								to: 'https://dx.gsx.org.in/auth/apis'
+								to: 'https://dx.gdi.org.in/auth/apis'
 							}
 						]
 					},
@@ -216,7 +216,7 @@ const config = {
 						]
 					}
 				],
-				copyright: `© ${new Date().getFullYear()} GSX.`
+				copyright: `© ${new Date().getFullYear()} GDI.`
 			},
 			prism: {
 				theme: lightCodeTheme,
