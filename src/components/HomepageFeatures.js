@@ -9,7 +9,7 @@ const FeatureList = [
     Svg: require('../../static/img/getting_started.svg').default,
     description: (
       <>
-        How to register with GSX?
+        How to register with GDI?
       </>
     ),
   },
@@ -19,17 +19,17 @@ const FeatureList = [
     Svg: require('../../static/img/consuming_data.svg').default,
     description: (
       <>
-        How to connect your applications with GSX?
+        How to connect your applications with GDI?
       </>
     ),
   },
   {
-    title: 'Add your data resources to GSX',
+    title: 'Add your data resources to GDI',
     link:"../../docs/Provider/provider_register_catalogue_item",
     Svg: require('../../static/img/datasets.svg').default,
     description: (
       <>
-		How to add data resources and manage them using GSX?
+		How to add data resources and manage them using GDI?
       </>
     ),
   },
@@ -44,18 +44,18 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Contribute to GSX',
+    title: 'Contribute to GDI',
     link:"https://github.com/datakaveri",
     Svg: require('../../static/img/Api.svg').default,
     description: (
       <>
-		Get into the world of GSX and start your contribution to the world of OpenSource to improvise GSX
+		Get into the world of GDI and start your contribution to the world of OpenSource to improvise GDI
       </>
     ),
   },
   {
     title: 'Connect with us',
-    link:"https://gsx.org.in/contact-us/",
+    link:"https://gdi.org.in/contact-us/",
     Svg: require('../../static/img/subscribe.svg').default,
     description: (
       <>
