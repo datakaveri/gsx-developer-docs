@@ -165,19 +165,19 @@ const config = {
 						items: [
 							{
 								label: 'Datasets Catalogue',
-								to: 'https://catalogue.gdi.org.in/'
+								to: 'https://catalogue.geospatial.org.in/'
 							},
 							{
 								label: 'Provider Dashboard',
-								to: 'https://catalogue.gdi.org.in/provider'
+								to: 'https://catalogue.geospatial.org.in/provider'
 							},
 							{
 								label: 'Consumer Dashboard',
-								to: 'https://catalogue.gdi.org.in/consumer'
+								to: 'https://catalogue.geospatial.org.in/consumer'
 							},
 							{
 								label: 'Canvas Playground',
-								to: 'https://canvas.gdi.org.in/'
+								to: 'https://canvas.geospatial.org.in/'
 							},
 							{
 								label: 'Community Forum',
@@ -194,15 +194,15 @@ const config = {
 							},
 							{
 								label: 'Catalogue Server API Docs',
-								to: 'https://dx.gdi.org.in/cat/apis'
+								to: 'https://dx.geospatial.org.in/cat/apis'
 							},
 							{
 								label: 'Resource Server API Docs',
-								to: 'https://geoserver.dx.gdi.org.in/api'
+								to: 'https://geoserver.dx.geospatial.org.in/api'
 							},
 							{
 								label: 'Authorization Server API Docs',
-								to: 'https://dx.gdi.org.in/auth/apis'
+								to: 'https://dx.geospatial.org.in/auth/apis'
 							}
 						]
 					},

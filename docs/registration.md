@@ -6,14 +6,14 @@ sidebar_position: 0
 
 ## Introduction
 
-All users of the GDI platform must be registered and authenticated to perform any secure operation offered by the platform, which is available at no cost. The details of these secure operations are defined and explained by all GDI components in their respective [API documentation](https://dx.gdi.org.in/apis). The registration process of a user on the GDI platform is a simple three-step process as outlined below:
+All users of the GDI platform must be registered and authenticated to perform any secure operation offered by the platform, which is available at no cost. The details of these secure operations are defined and explained by all GDI components in their respective [API documentation](https://dx.geospatial.org.in/apis). The registration process of a user on the GDI platform is a simple three-step process as outlined below:
 1. [Creating the Account](#1-account-creation)
 2. [Verifying the Email Address](#2-email-verification)
 3. [Assigning / Requesting a User Role](#3-requesting-user-roles)
 
 ## 1. Account Creation
 
-As the first step when a user accesses the [panel](https://catalogue.gdi.org.in/auth), they need to register as a new user. <br/>  Registering is highlighted in the picture.
+As the first step when a user accesses the [panel](https://catalogue.geospatial.org.in/auth), they need to register as a new user. <br/>  Registering is highlighted in the picture.
 ![Register](../resources/auth/register.png)<br/>
 *Click on Register*
 
