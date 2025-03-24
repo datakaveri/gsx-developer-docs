@@ -4,7 +4,7 @@ sidebar_position: 3
 
  
 # Obtaining Access Token
-To access a resource after discovering from the catalogue, a consumer should obtain Access Token using GDI Authorisation Servers [Create Token APIs](https://dx.ugix.org.in/auth/apis#tag/Token-APIs/operation/post-auth-v1-token). 
+To access a resource after discovering from the catalogue, a consumer should obtain Access Token using GDI Authorisation Servers [Create Token APIs](https://dx.geospatial.org.in/auth/apis#tag/Token-APIs/operation/post-auth-v1-token). 
 
 A consumer can use the clientID and clientSecret obtained through [Registration](../registration.md)
 
@@ -15,12 +15,14 @@ A consumer can use the clientID and clientSecret obtained through [Registration]
 
 
 ## Obtaining token for an OPEN resource
-After discovering an Open resource from the Catalogue, a consumer can obtain a token using the [Create Token APIs](https://dx.ugix.org.in/auth/apis#tag/Token-APIs/operation/post-auth-v1-token) with the following request body. Ensure to use the appropriate resource server id as itemId to obtain a token.
+After discovering an Open resource from the Catalogue, a consumer can obtain a token using the [Create Token APIs](https://dx.geospatial.org.in/auth/apis#tag/Token-APIs/operation/post-auth-v1-token) with the following request body. Ensure to use the appropriate resource server id as itemId to obtain a token.
+
+E.g., the following JSON body gets a token for an open resource hosted on the `geoserver.dx.geospatial.org.in` resource server.
 
 
 ```json
 {
-  "itemId": "geoserver.dx.gsx.org.in",
+  "itemId": "geoserver.dx.geospatial.org.in",
   "itemType": "resource_server",
   "role": "consumer"
 }
@@ -28,7 +30,8 @@ After discovering an Open resource from the Catalogue, a consumer can obtain a t
 
 
 ## Obtaining token for a SECURE resource
-After discovering a Secure resource from the Catalogue, a consumer can obtain a token using the [Create Token APIs](https://dx.ugix.org.in/auth/apis#tag/Token-APIs/operation/post-auth-v1-token) with the following request body. Ensure to use the appropriate resource id as itemId to obtain a token.
+After discovering a Secure resource from the Catalogue, a consumer can obtain a token using the [Create Token APIs](https://dx.geospatial.org.in/auth/apis#tag/Token-APIs/operation/post-auth-v1-token) with the following request body. Ensure to use the appropriate resource id as itemId to obtain a token.
+
 
 ```json
 {

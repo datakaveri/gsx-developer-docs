@@ -9,13 +9,14 @@ const foot = require('./static/footer_col_3');
 const config = {
 	title: 'GDI Documentation',
 	tagline: 'Learn about exploring, building , deploying your apps with GDI',
-	url: 'https://docs.ugix.org.in/',
+	url: 'https://docs.geospatial.org.in/',
+
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
 	favicon: 'https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/ugix/icon.ico',
-	organizationName: 'GSX', // Usually your GitHub org/user name.
-	projectName: 'GSX', // Usually your repo name.
+	organizationName: 'GDI', // Usually your GitHub org/user name.
+	projectName: 'GDI', // Usually your repo name.
 
 	presets: [
 		[
@@ -124,7 +125,7 @@ const config = {
 								html: `
                       <div class="col-12 col-lg-3 footer-col-1 mt-4">
 				<div class="places">
-					<h4>Geospatial Data Exchange</h4>
+					<h4>Integrated Geospatial Data-Sharing Interface</h4>
 
 					<div class="row mt-lg-4 foot-column-1">
 						<div class="col-2">
@@ -196,19 +197,19 @@ const config = {
 						items: [
 							{
 								label: 'Documentation',
-								to: 'https://docs.ugix.org.in/'
+								to: 'https://docs.geospatial.org.in/'
 							},
 							{
 								label: 'Catalogue Server API Docs',
-								to: 'https://dx.ugix.org.in/cat/apis'
+								to: 'https://dx.geospatial.org.in/cat/apis'
 							},
 							{
 								label: 'Resource Server API Docs',
-								to: 'https://geoserver.dx.ugix.org.in/api'
+								to: 'https://geoserver.dx.geospatial.org.in/api'
 							},
 							{
 								label: 'Authorization Server API Docs',
-								to: 'https://dx.ugix.org.in/auth/apis'
+								to: 'https://dx.geospatial.org.in/auth/apis'
 							}
 						]
 					},

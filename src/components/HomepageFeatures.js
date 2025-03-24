@@ -55,7 +55,7 @@ const FeatureList = [
   },
   {
     title: 'Connect with us',
-    link:"https://gsx.org.in/contact-us/",
+    link:"https://geospatial.org.in/contact-us/",
     Svg: require('../../static/img/subscribe.svg').default,
     description: (
       <>

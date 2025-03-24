@@ -4,7 +4,7 @@ sidebar_position: 2
 
 
 # Discover Resources
-With the help of [Catalogue APIs](https://dx.ugix.org.in/cat/apis), a consumer can access information related to availability of a resource using text and geo-based search.
+With the help of [Catalogue APIs](https://dx.geospatial.org.in/cat/apis), a consumer can access information related to availability of a resource using text and geo-based search.
 
 
 ## Using GDI Catalogue UI
