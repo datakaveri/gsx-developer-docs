@@ -9,7 +9,8 @@ const foot = require('./static/footer_col_3');
 const config = {
 	title: 'GDI Documentation',
 	tagline: 'Learn about exploring, building , deploying your apps with GDI',
-	url: 'https://docs.gdi.org.in/',
+	url: 'https://docs.geospatial.org.in/',
+
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
@@ -49,7 +50,7 @@ const config = {
 				title: '',
 				logo: {
 					alt: 'My Site Logo',
-					src: 'https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/ugix/gsix-logo.png'
+					src: 'https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/gdi/gdi-global/gdi-global-logo.jpg'
 				},
 				items: [
 					{
@@ -131,11 +132,13 @@ const config = {
 							<img src="https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/ugix/icons/location.svg" alt="" class='foot-icon' />
 						</div>
 						<div class="col-8" style="margin-left: 5px">
-							<span
-								>Ground Floor, Indian Institute of Science,
-								Entrepreneurship Centre Road Entrepreneurship
-								Centre, Bengaluru, Karnataka 560012</span
-							>
+							<a href="https://goo.gl/maps/D9CXw44DQaRUxtAj7" target="_blank">
+								<span
+									>Ground Floor, Indian Institute of Science,
+									Entrepreneurship Centre Road Entrepreneurship
+									Centre, Bengaluru, Karnataka 560012</span
+								>
+							</a>
 						</div>
 					</div>
 					<br />
@@ -144,7 +147,9 @@ const config = {
 							<img src="https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/ugix/icons/website.svg" alt="" class='foot-web-icon' />
 						</div>
 						<div class="col-10">
-							<a href=''>www.gdi.org.in</a>
+							<a href='https://www.geospatial.org.in' target="_blank">
+								www.geospatial.org.in
+							</a>
 						</div>
 					</div>
 					<div class="row mt-lg-4 foot-column-1">
@@ -152,7 +157,9 @@ const config = {
 							<img src="https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/ugix/icons/email.svg" alt="" class='foot-web-icon' />
 						</div>
 						<div class="col-10">
-							<span>info@iudx.org.in</span>
+							<a href="mailto:support@cdpg.org.in">
+								<span>support@cdpg.org.in</span>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -190,7 +197,7 @@ const config = {
 						items: [
 							{
 								label: 'Documentation',
-								to: 'https://docs.gdi.org.in/'
+								to: 'https://docs.geospatial.org.in/'
 							},
 							{
 								label: 'Catalogue Server API Docs',

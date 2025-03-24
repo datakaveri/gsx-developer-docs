@@ -56,7 +56,7 @@ module.exports = `<div class="col-3">
             </a>
         </div>
         <p class="mailto">
-            <a href="mailto:info@iudx.org.in"> info@iudx.org.in</a>
+            <a href="mailto:support@cdpg.org.in"> support@cdpg.org.in</a>
         </p>
     </div>
 </div>

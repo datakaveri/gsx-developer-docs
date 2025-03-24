@@ -10,6 +10,7 @@ To create,update or delete a catalogue entry in the GDI Catalogue Server, a prov
 To obtain a token, a provider can either specify their clientId and clientSecret in the header or specify a token header. The clientId and clientSecret are generated for a provider on their [Successful Registration](registration.md).
 
 A provider can obtain a token using the [Create Token APIs](https://dx.geospatial.org.in/auth/apis#tag/Token-APIs/operation/post-auth-v1-token) with the following request body.
+
 ```json
 {
   "itemId": "geoserver.dx.geospatial.org.in",
@@ -24,6 +25,7 @@ On successfully obtaining a [Create Catalogue Token](https://dx.geospatial.org.i
 Assuming the catalogue entries for provider and resource_server are already uploaded by the GDI Admin, a provider can now insert the entries for resource_group followed by the entries for the resource to the GDI Catalogue Server.
 
 The Python script below shows an example of inserting a catalogue entry to the GDI Catalogue Server using the [Create Item API](https://dx.geospatial.org.in/cat/apis#tag/Entity/operation/create%20item).
+
 ```python { #create_catalogue_example }
 import json
 import requests

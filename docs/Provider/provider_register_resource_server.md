@@ -12,6 +12,7 @@ Providers can obtain a token by specifying their clientId and clientSecret in th
 
 To obtain a token, providers can use the [Create Token APIs](https://dx.geospatial.org.in/auth/apis#tag/Token-APIs/operation/post-auth-v1-token) with the following request body:
 
+
 ```json
 {
     "itemId": "geoserver.dx.geospatial.org.in",
