@@ -133,7 +133,7 @@ const config = {
 						</div>
 						<div class="col-8" style="margin-left: 5px">
 							<a href="https://goo.gl/maps/D9CXw44DQaRUxtAj7" target="_blank">
-								<span
+								<span class="footer-left"
 									>Ground Floor, Indian Institute of Science,
 									Entrepreneurship Centre Road Entrepreneurship
 									Centre, Bengaluru, Karnataka 560012</span
@@ -147,7 +147,7 @@ const config = {
 							<img src="https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/ugix/icons/website.svg" alt="" class='foot-web-icon' />
 						</div>
 						<div class="col-10">
-							<a href='https://www.geospatial.org.in' target="_blank">
+							<a class="footer-left" href='https://www.geospatial.org.in' target="_blank">
 								www.geospatial.org.in
 							</a>
 						</div>
@@ -158,7 +158,7 @@ const config = {
 						</div>
 						<div class="col-10">
 							<a href="mailto:support@cdpg.org.in">
-								<span>support@cdpg.org.in</span>
+								<span class="footer-left">support@cdpg.org.in</span>
 							</a>
 						</div>
 					</div>
