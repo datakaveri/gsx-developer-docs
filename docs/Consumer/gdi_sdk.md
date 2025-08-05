@@ -19,16 +19,23 @@ User access within the SDK is managed through client credentials obtained during
 gdi generate-token --client-id <client-id> --client-secret <client-secret> --role <role>
 ```
 
-List objects
+## General
+
+### List objects
 List all the available objects stored in minio
+
+```
 gdi ls-objects --config-path <config-path> --client-id <client-id>
+```
 
-List data
+### List data
 Lists all available vector and raster artifacts available within the bounding box of the input place
+
+```
 gdi list-data --location <place_name>
+```
 
-
-## Vector Commands
+## Vector Data Operations
 
 ### Get vector data 
 
@@ -132,7 +139,7 @@ Converts a vector file from one format (e.g., Shapefile, GeoJSON, GPKG, KML) to 
 gdi convert_vector --config-path <config-path> --client-id <client-id> --input-vector <input-path> --input-artifact <local/minio> --file-path <output-path> --store-artifact <local/minio>
 ```
 
-## Raster Commands
+## Raster Data Operations
 
 ### Search catalog
 
